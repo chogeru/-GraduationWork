@@ -111,7 +111,7 @@ MonoBehaviour:
     value: 1
   preset:
     overrideState: 1
-    value: 3
+    value: 5
   maximumIterationCount:
     overrideState: 0
     value: 16
@@ -125,11 +125,11 @@ MonoBehaviour:
     overrideState: 0
     value: 100
   distanceFade:
-    overrideState: 1
-    value: 0.005
+    overrideState: 0
+    value: 0.5
   vignette:
-    overrideState: 1
-    value: 0.034
+    overrideState: 0
+    value: 0.5
 --- !u!114 &-4798518033469223863
 MonoBehaviour:
   m_ObjectHideFlags: 3
@@ -189,7 +189,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 556797029e73b2347956b6579e77e05b, type: 3}
   m_Name: DepthOfField
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
@@ -1616,7 +1616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b94fcd11afffcb142908bfcb1e261fba, type: 3}
   m_Name: MotionBlur
   m_EditorClassIdentifier: 
-  active: 0
+  active: 1
   enabled:
     overrideState: 1
     value: 1
