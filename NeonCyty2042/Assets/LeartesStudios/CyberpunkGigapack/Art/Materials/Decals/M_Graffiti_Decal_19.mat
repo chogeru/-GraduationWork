@@ -90,7 +90,7 @@ Material:
     m_Colors:
     - _ColorTint: {r: 0.27450982, g: 0.27450982, b: 0.27450982, a: 1}
   m_BuildTextureStacks: []
---- !u!114 &6411399062306992019
+--- !u!114 &480072604401701778
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
