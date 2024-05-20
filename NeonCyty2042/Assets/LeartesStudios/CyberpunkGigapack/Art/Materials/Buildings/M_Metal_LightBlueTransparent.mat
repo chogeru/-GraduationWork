@@ -21,17 +21,16 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: M_Metal_LightBlueTransparent
-  m_Shader: {fileID: -6465566751694194690, guid: 35521403df3af304397dbdc04f8b53ec,
-    type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 35521403df3af304397dbdc04f8b53ec, type: 3}
   m_ValidKeywords:
   - _ALPHATEST_ON
   - _BUILTIN_ALPHATEST_ON
   - _BUILTIN_AlphaClip
   - _BUILTIN_SURFACE_TYPE_TRANSPARENT
+  - _SURFACE_TYPE_TRANSPARENT
+  m_InvalidKeywords:
   - _DISABLE_SSR_TRANSPARENT
   - _ENABLE_FOG_ON_TRANSPARENT
-  - _SURFACE_TYPE_TRANSPARENT
-  m_InvalidKeywords: []
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 1
   m_DoubleSidedGI: 0
@@ -192,7 +191,7 @@ Material:
     - _RenderQueueType: 4
     - _RequireSplitLighting: 0
     - _SecondaryTextureTiling: 1
-    - _SrcBlend: 1
+    - _SrcBlend: 5
     - _StencilRef: 0
     - _StencilRefDepth: 0
     - _StencilRefDistortionVec: 4
@@ -225,15 +224,14 @@ Material:
     - _ZTestDepthEqualForOpaque: 4
     - _ZTestGBuffer: 3
     - _ZTestTransparent: 4
-    - _ZWrite: 1
+    - _ZWrite: 0
     - _ZWriteControl: 0
     m_Colors:
     - Color_9999a74f96034bfd8f70d82adf6bdcbd: {r: 0, g: 0.38447738, b: 1, a: 1}
     - Color_A7DF1144: {r: 0, g: 0, b: 0, a: 0}
     - Color_AF14EE56: {r: 0.754717, g: 0.754717, b: 0.754717, a: 0}
     - Color_af892e36b16742d1b5a31e2fb9c43b3d: {r: 0, g: 0.6332358, b: 1, a: 1}
-    - Color_f6973748622e48d389fed870a51f8d37: {r: 0.83921576, g: 1, b: 0.9686275,
-        a: 0}
+    - Color_f6973748622e48d389fed870a51f8d37: {r: 0.83921576, g: 1, b: 0.9686275, a: 0}
     - Vector2_a2eabf39adb94f15b288ca76d631bb9d: {r: 0, g: 0, b: 0, a: 0}
     - _DoubleSidedConstants: {r: -1, g: -1, b: -1, a: 0}
     - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
